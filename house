@@ -1,0 +1,8 @@
+R*,LR,Living room,Boring. But it does prove useful for quickly traversing the first floor.,{NORTH:D;SOUTH:H2},{Toy}
+R,D,Dining Room,Smells of fish. Perhaps that smell is actually from the kitchen?,{SOUTH:LR;WEST:K},{}
+R,K,Kitchen,Smells like burnt fish. That's why it smelled weird!,{EAST:D;WEST:H1},{}
+R,H1,Hallway,Littered with bones.,{EAST:K;NORTH:S;WEST:H2},{}
+R,H2,Hallway,Swept clean. It's a very strange section of the hallway. It seems curved.,{EAST:H1;WEST:RR;NORTH:LR},{}
+R,S,Storage Room,It's not very comfortable here.,{SOUTH:H1},{}
+R,RR,Restroom,The mixture of scents make you nauseous.,{EAST:H2},{}
+I,Toy,Toy,It's a little spinny top.
